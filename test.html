@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+	<script src="js/snowfall.jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Amanor</title>
+	<link rel="icon" href="logo.png">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="snow.js"></script>
+</head>
+<body>
+	<script type="text/javascript"> 
+		
+	$(document).ready(function(){
+				
+	$(document).snowfall({deviceorientation : true, round : true, minSize: 2, maxSize:10,  flakeCount : 200});
+
+	});
+
+	 </script>
+	<div class="top">
+		<span>
+			Ամանորյա զվարճալի պատմվածքներ
+		</span>
+		<ul id="menu">
+			<a href="./index.html"><li><span class="glyphicon glyphicon-th-large"></span></li></a>
+			<a href="./test.html"><li><span class="glyphicon glyphicon-list-alt"></span></li></a>
+		</ul>
+	</div>
+      
+	<span>
+		<button onclick="test1()" class="test1">#1</button>
+		<button onclick="test2()" class="test2">#2</button>
+		<button onclick="test3()" class="test3">#3</button>
+		<button onclick="test4()" class="test4">#4</button>
+	</span>
+	<div class="bottom">
+		
+	</div>
+</body>
+</html>
