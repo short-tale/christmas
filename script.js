@@ -1,5 +1,10 @@
-alert("Հարգելի օգտվող ուզում ենք զգուշացնել, որ միանալու է երաժշտություն։ Եթե ձեզ դա կանհանգստացնի կարող եք իջացնել համակարգչի ձայնը");
+alert("Հարգելի օգտվող ուզում ենք զգուշացնել, որ միանալու է երաժշտություն։ Եթե ձեզ դա կանհանգստացնի կարող եք իջեցնել համակարգչի ձայնը");
 var audio = new Audio('horse.mp3');
+function back_audio(){
+	audio.play();
+	setTimeout(back_audio, 2000);
+}
+back_audio();
 function test1(){
 	var answer = prompt("Որ ճանապարհով գնամ, որ հասնեմ նվերին(1,2,3,4,5,6)");
 	if(answer=="5"){
@@ -9,11 +14,6 @@ function test1(){
 		alert("Ոչ, Սխալ է :( \n կրկին փորձիր");
 	}
 }
-function back_audio(){
-	audio.play();
-	setTimeout(back_audio, 20000);
-}
-back_audio();
 function tale4(){
 	var heavy = prompt("Գրեք մի ծանր բան");
 	var hate = prompt("Մի մարդ, որին տանել չեք կարողանում");
