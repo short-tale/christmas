@@ -11,7 +11,7 @@ function test1(){
 }
 function test2(){
 	var answer = prompt("Քանի՞ խաղալիք կարող ենք կախել ծառից(0,1,2,3,4)");
-	if(answer=="5"){
+	if(answer=="3"){
 		alert("Այո, Ճիշտ է:) \n Կարող ես անցնել հաջորդ խնդրին");
 	}
 	else{
