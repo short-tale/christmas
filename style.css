@@ -89,7 +89,7 @@ body{
 	border: 0px;
 }
 .test2{
-	background-image: url("tale2.jpg");
+	background-image: url("test2.jpg");
 	background-blend-mode: luminosity;
 	padding: 30px 480px 260px 80px;
 	color: black;
