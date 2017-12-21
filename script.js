@@ -54,7 +54,7 @@ function tale4(){
 	tale += " պապից: Նա ինձ ";
 	tale += item;
 	tale += " էր տվել: \n \n Հեղինակ՝ Նազելի Տեր-Պետրասյան";
-	document.write(tale);
+	alerttale);
 }
 function tale3(){
 	var fly = prompt("Մի վայր, որտեղ ճանճերը հավաքվում են։");
@@ -162,5 +162,5 @@ function tale1(){
 	tale += "ի նման ու հիմա աշխատում եմ ";
 	tale += santa;
 	tale += "ի համար։ \n \n Հեղինակ՝ Տիգրան Սերոբյան";
-	document.write(tale);
+	alert(tale);
 }
