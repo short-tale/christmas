@@ -23,6 +23,36 @@ function back_audio(){
 	setTimeout(back_audio, 20000);
 }
 back_audio();
+function tale5(){
+	var SisterBrother = prompt("Դուք ավելի շատ քույր թե եղբայր ունեք(քույր, եղբայր):");
+	var build = prompt("Գրեք մի շինություն:");
+	var street = prompt("Ինչ հատականիշով կնկարագրեք ձեր փողոցը(գեղեցիկ,  լայն, կեղտոտ․․․):");
+	var color = prompt("Գրեք մի գույն։");
+	var animal = prompt("Գրեք մի կենդանի։");
+	var tale = "Այսօր երկինքը թանձր մշուշով է պատվել, ձմեռ է, ձյուն ու սառնամանիք: Դե իսկի էլ զարմանալի չէ.վաղը դեկտեմբերի 31-ն է, Նոր տարին մոտենում է, իսկ ես դեռ ";
+	tale += SisterBrother;
+	tale += " համար նվեր չեմ գնել… Դուրս եկա ";
+	tale += build;
+	tale += " ից` անելիքս չիմանալով: Ճանապարհն անցնում էր մի ";
+	tale += street;
+	tale += " ծառուղով: Ծառերը կորացել էին ձյան ծանրության տակ: Տեսա` մի ";
+	tale += color;
+	tale += " ";
+	tale += animal;
+	tale += " ցատկոտում է այս ու այնկողմ: Մոտեցա, մի քիչ վազվզելուց հետո նա հայտնվեց իմ գրկում: Ուռաաա՜… Ինչքա՜ն կուրախանա ";
+	tale += SisterBrother;
+	tale += "ը։ ";
+	tale += color;
+	tale += " ";
+	tale += animal;
+	tale += "ին: թաքցրի բաճկոնիս տակ ու վազեցի ";
+	tale += build;
+	tale += ": Սա ամենալավ ամանորյա նվերն է ";
+	tale += SisterBrother;
+	tale += "ս համար…";
+	tale += "\n \n Հեղինակ՝ ․․․";
+	alert(tale);
+}
 function tale4(){
 	var heavy = prompt("Գրեք մի ծանր բան");
 	var hate = prompt("Մի մարդ, որին տանել չեք կարողանում");
