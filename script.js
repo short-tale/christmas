@@ -23,6 +23,34 @@ function back_audio(){
 	setTimeout(back_audio, 20000);
 }
 back_audio();
+function tale6(){
+	var name = prompt("Գրեք ձեր անունը:");
+	var place = prompt("Գրեք մի վայր, որտեղ դուք ձեզ վատ եք զգում:");
+	var find = prompt("Գրեք մի վայր, որտեղ ձեզ չեն գտնի:");
+	var people = prompt("Գրեք մի մարդկանց խումբը(երեխաներ,ուսուցիչներ,դպրոցականներ,ընկերներ):");
+	var christmas = prompt("Գրեք մի ամանորյա զարդարանք:");
+	var tale = name;
+	tale += "ից  Ձմեռ պապին \n Այսօր  Ամանոր է, և ես նամակ եմ գրում քեզ: Հուսով եմ, որ իմ նամակը քեզ կհասնի: Ես ապրում եմ ";
+	tale += placeou;
+	tale += " ից` անելիքս չիմանալով: Ճանապարհն անցնում էր մի ";
+	tale += street;
+	tale += " ծառուղով: Ծառերը կորացել էին ձյան ծանրության տակ: Տեսա` մի ";
+	tale += color;
+	tale += " ";
+	tale += animal;
+	tale += " ցատկոտում է այս ու այնկողմ: Մոտեցա, մի քիչ վազվզելուց հետո նա հայտնվեց իմ գրկում: Ուռաաա՜… Ինչքա՜ն կուրախանա ";
+	tale += SisterBrother;
+	tale += "ը։ ";
+	tale += color;
+	tale += " ";
+	tale += animal;
+	tale += "ին: թաքցրի բաճկոնիս տակ ու վազեցի ";
+	tale += build;
+	tale += ": Սա ամենալավ ամանորյա նվերն է ";
+	tale += SisterBrother;
+	tale += "ս համար…";
+	tale += "\n \n Հեղինակ՝ Էմիլի Հարությունյան";
+	alert(tale);
 function tale5(){
 	var SisterBrother = prompt("Դուք ավելի շատ քույր թե եղբայր ունեք(քույր, եղբայր):");
 	var build = prompt("Գրեք մի շինություն:");
