@@ -50,7 +50,7 @@ function tale5(){
 	tale += ": Սա ամենալավ ամանորյա նվերն է ";
 	tale += SisterBrother;
 	tale += "ս համար…";
-	tale += "\n \n Հեղինակ՝ ․․․";
+	tale += "\n \n Հեղինակ՝ Էմիլի Հարությունյան";
 	alert(tale);
 }
 function tale4(){
