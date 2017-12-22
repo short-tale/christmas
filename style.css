@@ -104,6 +104,16 @@ body{
 	margin: 20px;
 	border: 0px;
 }
+.tale9{
+	background-image: url("tale9.jpg");
+	background-blend-mode: luminosity;
+	padding: 30px 80px 250px 480px;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 20px;
+	border: 0px;
+}
 .tale1:hover{
 	background-blend-mode: normal;
 }
@@ -126,6 +136,9 @@ body{
 	background-blend-mode: normal;
 }
 .tale8:hover{
+	background-blend-mode: normal;
+}
+.tale9:hover{
 	background-blend-mode: normal;
 }
 
