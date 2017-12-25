@@ -30,6 +30,8 @@ function tale9(){
 	var angry = prompt("Ինչ եք անում երբ ջղայն եք:");
 	var tired = prompt("Ինչ եք անում երբ հոգնած եք:");
 	var tale = name;
+	alert('Շուտով');
+	/*
 	tale += "Մի ձմեռային օր ";
 	tale += name;
 	tale += " որուշում է իր փոքրիկ քրոջ համար անակնկալ պատրաստել,որը ձյուն չգալու պատճառով տխուր էր: ";
@@ -45,6 +47,7 @@ function tale9(){
 	tale += " չի շպրտի:";
 	tale += animal;
 	alert(tale);
+	*/
 }
 function tale8(){
 	var animal = prompt("Եթե կենդանի ունենայիք անունը ինչ կդնեիք");
